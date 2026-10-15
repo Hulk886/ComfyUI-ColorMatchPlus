@@ -1,8 +1,3 @@
-# ComfyUI-ColorMatchPlus
-
-HULK666_Corrector 插件的功能等价替代节点包。原 HULK666_Corrector 无公开仓库，本包提供两个
-与截图工作流功能等价的节点，节点分类沿用 `HULK666_Corrector`，可直接替换原工作流中的节点。
-
 ## 功能
 
 ### 1. 精确颜色匹配（ColorMatchPlus）
