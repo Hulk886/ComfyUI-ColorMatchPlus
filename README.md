@@ -32,7 +32,7 @@
 ## 安装
 
 将本目录（ComfyUI-ColorMatchPlus）复制到 ComfyUI 的 `custom_nodes` 目录下，重启
-ComfyUI 即可。节点分类 `HULK666_Corrector`，无需额外安装依赖。
+ComfyUI 即可。无需额外安装依赖。
 
 ## 版本
 
