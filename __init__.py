@@ -10,5 +10,5 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "HighlightRestorePlus": "高光细节恢复",
 }
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"]

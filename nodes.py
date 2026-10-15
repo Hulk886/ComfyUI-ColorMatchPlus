@@ -3,7 +3,7 @@ import torch.nn.functional as F
 
 # ============================================================
 # ComfyUI-ColorMatchPlus
-#   与 JINGSI_Corrector 功能等价的节点包（分类沿用 JINGSI_Corrector）
+#   与 HULK666_Corrector 功能等价的节点包（分类沿用 HULK666_Corrector）
 #   - ColorMatchPlus        精确颜色匹配
 #   - HighlightRestorePlus  高光细节恢复
 # 纯 torch 实现，不引入任何第三方新依赖；
@@ -71,7 +71,7 @@ class ColorMatchPlus:
 
     RETURN_TYPES = ("IMAGE",)
     FUNCTION = "apply"
-    CATEGORY = "JINGSI_Corrector"
+    CATEGORY = "HULK666_Corrector"
 
     def apply(self, image, exposure=1.0, contrast=1.0, color_temp=0.0, tint=0.0, device="auto"):
         x, alpha = _split_rgb_alpha(image)
@@ -111,7 +111,7 @@ class HighlightRestorePlus:
 
     RETURN_TYPES = ("IMAGE",)
     FUNCTION = "apply"
-    CATEGORY = "JINGSI_Corrector"
+    CATEGORY = "HULK666_Corrector"
 
     def apply(self, image, original_image, threshold=0.5, strength=0.0, device="auto"):
         x, alpha = _split_rgb_alpha(image)

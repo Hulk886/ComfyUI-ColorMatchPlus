@@ -1,5 +1,7 @@
 # ComfyUI-ColorMatchPlus
 
+HULK666_Corrector 插件的功能等价替代节点包。原 HULK666_Corrector 无公开仓库，本包提供两个
+与截图工作流功能等价的节点，节点分类沿用 `HULK666_Corrector`，可直接替换原工作流中的节点。
 
 ## 功能
 
@@ -35,8 +37,9 @@
 ## 安装
 
 将本目录（ComfyUI-ColorMatchPlus）复制到 ComfyUI 的 `custom_nodes` 目录下，重启
-ComfyUI 即可。节点分类 `JINGSI_Corrector`，无需额外安装依赖。
+ComfyUI 即可。节点分类 `HULK666_Corrector`，无需额外安装依赖。
 
 ## 版本
 
+- v1.0.1：节点分类名改为 HULK666_Corrector（原分类弃用），中文节点显示名与功能不变。
 - v1.0.0：初版，实现上述两节点。

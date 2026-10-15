@@ -1,7 +1,7 @@
 [project]
 name = "ComfyUI-ColorMatchPlus"
-version = "1.0.0"
-description = "JINGSI_Corrector 等价节点包：精确颜色匹配 + 高光细节恢复（纯 torch/numpy，无新增依赖）"
+version = "1.0.1"
+description = "HULK666_Corrector 等价节点包：精确颜色匹配 + 高光细节恢复（纯 torch/numpy，无新增依赖）"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
@@ -11,4 +11,4 @@ dependencies = [
 ]
 
 [tool.comfy]
-Category = "JINGSI_Corrector"
+Category = "HULK666_Corrector"
